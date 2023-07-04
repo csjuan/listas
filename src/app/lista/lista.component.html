@@ -1,0 +1,15 @@
+
+    <h1 [ngClass]=" 'titulos' ">{{titulo | uppercase}}</h1>
+    <div [ngClass]=" 'fecha' ">
+        <h2 [ngStyle]="{'font-size': size? '30px': '20px'}" >fecha:</h2>
+        <h3 [ngStyle]="{'font-size': '22px'}"> {{ fecha | date: 'short' }}</h3>
+    </div>
+    
+
+<div>
+    <h2>lista:</h2>
+    <ul>
+        <li *ngFor="let nombre of nombres">{{nombre}}</li>
+    </ul>
+</div>
+

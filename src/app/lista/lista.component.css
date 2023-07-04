@@ -1,0 +1,14 @@
+.titulos {
+    background-color: rgb(232, 232, 226);
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+.fecha {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+    
+    
+}
